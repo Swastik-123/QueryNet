@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>PageNotFound</title>
+</head>
+<body>
+<!-- we don't need to define this page to any handler because error.html page automatically handled by spring 
+boot . it's a default feature -->
+<h2>The request Page could not found</h2>
+<p>Click <a th:href="@{/}">Home</a> to go to home page</p>
+</body>
+</html>
